@@ -18,19 +18,19 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Spring-4.3.18.RELEASE" level="project" />
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://D:/Program Files/aspectjrt.jar!/" />
+          <root url="jar://$MODULE_DIR$/jar/aspectjrt.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://D:/Program Files/aspectjweaver-1.8.7.jar!/" />
+          <root url="jar://$MODULE_DIR$/jar/aspectjweaver-1.8.7.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
