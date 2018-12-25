@@ -1,7 +1,6 @@
 package spring.aop.impl;
 
 import org.springframework.stereotype.Component;
-import spring.aop.helloworld.ArithmeticCalculator;
 
 @Component
 public class ArithmeticCalculatorImpl implements ArithmeticCalculator{
