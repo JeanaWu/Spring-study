@@ -5,8 +5,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class LoggingAspect {
 
-    @Aspect
-    @Component
+
     public void beforeMethod(){
         System.out.println("The method begins");
     }
