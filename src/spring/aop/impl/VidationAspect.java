@@ -12,7 +12,7 @@ import java.util.Arrays;
 @Component
 public class VidationAspect {
 
-    @Before("execution(* spring.aop.impl.*.*(..))")
+    @Before("LoggingAspect.declareJoinPointExpression()")
     public void validationArgs(JoinPoint jointPoint){
         System.out.println("-->validate:" + Arrays.asList(jointPoint.getArgs()));
     }
