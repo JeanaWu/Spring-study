@@ -13,5 +13,8 @@ public class Main {
         //3,使用bean
         int result=arithmeticCalculator.add(3,6);
         System.out.println("result:"+result);
+
+        int result2=arithmeticCalculator.div(9,3);
+        System.out.println("result:"+result2);
     }
 }
