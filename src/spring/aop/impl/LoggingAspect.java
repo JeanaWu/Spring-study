@@ -1,7 +1,8 @@
 package spring.aop.impl;
 
 import org.springframework.stereotype.Component;
-
+@Aspect
+@Component
 public class LoggingAspect {
 
     @Aspect
