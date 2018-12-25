@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="org">
+    <CLASSES>
+      <root url="file://F:/Google Chrome Download/org" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://F:/Google Chrome Download/org" />
+    </SOURCES>
+    <jarDirectory url="file://F:/Google Chrome Download/org" recursive="false" />
+    <jarDirectory url="file://F:/Google Chrome Download/org" recursive="false" type="SOURCES" />
+  </library>
+</component>
