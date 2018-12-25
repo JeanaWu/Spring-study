@@ -9,7 +9,6 @@ public class Main {
         ApplicationContext ctx= new ClassPathXmlApplicationContext("applicationContext.xml");
 
         //2.从IOC容器中获取bean实例
-       // ArithmeticCalculatorImpl arithmeticCalculator = ctx.getBean(ArithmeticCalculatorImpl.class);
         ArithmeticCalculator arithmeticCalculator = ctx.getBean(ArithmeticCalculator.class);
         //3,使用bean
         int result=arithmeticCalculator.add(3,6);
